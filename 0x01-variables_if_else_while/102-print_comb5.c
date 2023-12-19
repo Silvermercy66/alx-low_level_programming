@@ -10,19 +10,19 @@
 int main(void)
 
 {
-int num3, num4;
+int num1, num2;
 
-for (num3 = 0; num3 <= 98; num3++)
+for (num1 = 0; num1 <= 98; num1++)
 {
-for (num4 = num3 + 3; num4 <= 99; num4++)
+for (num2 = num1 + 1; num2 <= 99; num2++)
 {
-putchar((num3 / 10) + '0');
-putchar((num3 % 10) + '0');
+putchar((num1 / 10) + '0');
+putchar((num1 % 10) + '0');
 putchar(' ');
-putchar((num4 / 10) + '0');
-putchar((num4 % 10) + '0');
+putchar((num2 / 10) + '0');
+putchar((num2 % 10) + '0');
 
-if (num3 == 98 && num4 == 99)
+if (num1 == 98 && num2 == 99)
 continue;
 putchar(',');
 putchar(' ');
